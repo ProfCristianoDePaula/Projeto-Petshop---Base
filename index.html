@@ -67,16 +67,63 @@
     </section>
 
     <!-- GALERIA -->
-    <section id="galeria" class="container"></section>
+    <section id="galeria" class="container">
+      <h2>Galeria de Fotos</h2>
+      <div class="galeria">
+        <img src="img/tosa.png" alt="Foto de tosa" />
+        <img src="img/pets.png" alt="Foto de pets" />
+        <img src="img/banho.png" alt="Foto de banho" />
+        <img src="img/veterinario.png" alt="Foto de veterinário" />
+      </div>
+    </section>
 
     <!-- CONTATO -->
-    <section id="contato" class="container"></section>
+    <section id="contato" class="container">
+      <h2>Entre em Contato</h2>
+      <form id="formContato">
+        <input
+          type="text"
+          placeholder="Digite seu Nome..."
+          id="nome"
+          name="nome"
+        />
+
+        <input
+          type="email"
+          placeholder="Digite seu E-mail.."
+          id="email"
+          name="email"
+        />
+
+        <textarea
+          placeholder="Digite sua Mensagem..."
+          id="mensagem"
+          name="mensagem"
+        ></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
 
     <!-- MAPA -->
-    <section id="localizacao" class="container"></section>
+    <section id="localizacao" class="container">
+      <h2>Como Chegar</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1557.6197499290356!2d-48.173237430566296!3d-21.79322353879276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8f3e5bd0551f3%3A0x60445b0d94f11583!2sPet%20shop%20Amigo%20Fiel!5e0!3m2!1spt-BR!2sbr!4v1778673910707!5m2!1spt-BR!2sbr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
 
     <!-- FOOTER -->
-    <footer></footer>
+    <footer>
+      <p>&copy; 2026 PetShop Amigo Fiel. Todos os direitos reservados.</p>
+      <p>Instagram | WhatsApp | Facebook</p>
+    </footer>
 
     <script src="js/script.js"></script>
   </body>
